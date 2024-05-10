@@ -6,6 +6,7 @@ This repository contains Python scripts designed to manage and maintain Dathost 
 ## Scripts Included
 - `cleanup.py`: This script automates the deletion of old logs and temporary files specific to MatchZy and other elements of the game server.
 - `keepalive.py`: Ensures that the servers specified are kept active by periodically sending a start command to prevent auto shutdown by the hosting provider.
+- `keepalive_no_reassignment.py`: Same as keepalive.py, but without the allow_host_reassignment boolean
 
 ## Setup Instructions
 1. Clone this repository to your local machine or server where you intend to run these scripts:
