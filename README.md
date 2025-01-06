@@ -58,8 +58,11 @@ ALLOW_REASSIGNMENT=true # Set to 'true' or 'false'
 LOG_RETENTION_DAYS=7 # Days to keep logs before they are eligible for deletion
 
 # Path where logs should be saved
-LOG_DIRECTORY_PATH=./logs # Directory path for storing logs
+LOG_DIRECTORY_PATH=/absolute/path/to/logs # Absolute path for storing logs
 ```
+
+**Important Note:**
+Always specify an **absolute path** for `LOG_DIRECTORY_PATH` in the `.env` file. When running via cron, relative paths (e.g., `./logs`) default to the user's home directory, which can lead to logs being saved in unexpected locations.
 
 ## Logging
 Logs are stored in the specified log directory (`LOG_DIRECTORY_PATH`) and are divided into:
