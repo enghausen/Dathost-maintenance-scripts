@@ -16,7 +16,7 @@ This repository contains Python scripts designed to manage and maintain Dathost 
 ## Setup Instructions
 1. Clone this repository to your local machine or server where you intend to run these scripts:
    ```
-   git clone git@github.com:enghausen/Dathost-maintenance-scripts.git
+   git clone https://github.com/enghausen/Dathost-maintenance-scripts.git
    ```
 2. Navigate into the repository directory:
    ```
